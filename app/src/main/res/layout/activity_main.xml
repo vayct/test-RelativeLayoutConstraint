@@ -1,0 +1,115 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:padding="5dp">
+
+
+
+
+
+
+
+    <TextView
+        android:text="Ben"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/ben_id"/>
+
+    <TextView
+        android:text="Lyla"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/lyla_id"/>
+
+
+    <TextView
+        android:text="Jennie"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/jennie_id"/>
+
+    <TextView
+        android:text="Jack"
+        android:layout_toLeftOf="@+id/ben_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/jack_id"/>
+
+    <TextView
+        android:text="Zelda"
+        android:layout_above="@+id/jennie_id"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/zelda_id"/>
+
+    <TextView
+        android:text="Baby"
+        android:layout_above="@+id/lyla_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/baby_id"/>
+
+    <TextView
+        android:text="Jesus"
+        android:layout_toRightOf="@id/lyla_id"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/jesus_id"/>
+
+    <TextView
+        android:text="Coral"
+        android:layout_toLeftOf="@id/zelda_id"
+        android:layout_above="@id/jennie_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/coral_id"/>
+
+    <TextView
+        android:text="Kage"
+        android:layout_toLeftOf="@id/jack_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/kage_id"/>
+
+    <TextView
+        android:text="Nevermore"
+        android:layout_toRightOf="@id/ben_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/nevermore_id"/>
+
+
+
+</RelativeLayout>
+
+
+
